@@ -4,6 +4,11 @@ $font-fam-main: Helvetica, sans-serif;
     font-size: 2em;
     color: red;
     font-weight: bold;
+    font-family: $font-fam-main;
+}
+
+.card-title {
+    @include titleBig()
 }
 
 $font-map: (

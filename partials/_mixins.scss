@@ -1,6 +1,9 @@
 @mixin floating {
   border-radius: 2em;  
-  box-shadow: 5px 10px red;
+  box-shadow: 5px 10px rgb(123, 123, 122);
   border: 1px solid;
 }
 
+button {
+  @include floating
+}

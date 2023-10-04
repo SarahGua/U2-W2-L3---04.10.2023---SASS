@@ -1,5 +1,7 @@
-@mixin animation ($name, $duration, $delay) {
-    @keyframes #{$name} {
+@mixin animation ($duration, $delay) {
+    animation-name: fadeIn;
+    animation-duration: $duration;
+    @keyframes fadeIn {
         0% {
             opacity: 0;
         }
@@ -8,5 +10,3 @@
          }
     }
 }
-
-// @include animation (fade-in, 3s, 0s )

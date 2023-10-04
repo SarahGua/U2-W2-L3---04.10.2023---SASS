@@ -6,3 +6,6 @@
 @import 'partials/bottons';
 @import 'partials/animations';
 
+.main-container {
+    @include animation(4s, 0s)
+}

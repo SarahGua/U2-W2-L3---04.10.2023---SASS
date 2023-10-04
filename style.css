@@ -48,6 +48,12 @@ table {
   border-spacing: 0;
 }
 
+button {
+  border-radius: 2em;
+  box-shadow: 5px 10px rgb(123, 123, 122);
+  border: 1px solid;
+}
+
 .padding-sm {
   padding: 0.5em;
 }
@@ -72,28 +78,35 @@ table {
   padding: 3.5em;
 }
 
-.margin-sm {
-  margin: 0.5em;
+.margn-sm {
+  padding: 0.5em;
 }
 
-.margin-nm {
-  margin: 1em;
+.margn-nm {
+  padding: 1em;
 }
 
-.margin-md {
-  margin: 1.5em;
+.margn-md {
+  padding: 1.5em;
 }
 
-.margin-lg {
-  margin: 2em;
+.margn-lg {
+  padding: 2em;
 }
 
-.margin-xl {
-  margin: 2.5em;
+.margn-xl {
+  padding: 2.5em;
 }
 
-.margin-xxl {
-  margin: 3.5em;
+.margn-xxl {
+  padding: 3.5em;
+}
+
+.card-title {
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
 }
 
 .font-xs {
@@ -134,4 +147,23 @@ table {
 
 .color-green {
   background-color: #4caf50;
+}
+
+button {
+  border-radius: 2em;
+  box-shadow: 5px 10px rgb(123, 123, 122);
+  border: 1px solid;
+}
+
+.main-container {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
