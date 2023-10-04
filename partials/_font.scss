@@ -2,12 +2,12 @@ $font-fam-main: Helvetica, sans-serif;
 
 @mixin titleBig(){
     font-size: 2em;
-    color: red;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-family: $font-fam-main;
 }
 
-.card-title {
+h1 {
     @include titleBig()
 }
 

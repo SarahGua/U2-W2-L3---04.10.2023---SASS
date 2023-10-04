@@ -102,9 +102,9 @@ button {
   padding: 3.5em;
 }
 
-.card-title {
+h1 {
   font-size: 2em;
-  color: red;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-family: Helvetica, sans-serif;
 }
@@ -155,15 +155,16 @@ button {
   border: 1px solid;
 }
 
-.main-container {
-  animation-name: fadeIn;
-  animation-duration: 4s;
+body {
+  background-color: #640fc5;
+  color: #f4f4f4;
+  font-family: Helvetica, sans-serif;
 }
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+
+h2 {
+  color: black;
+}
+
+section {
+  background-color: #0e6cff;
 }/*# sourceMappingURL=style.css.map */

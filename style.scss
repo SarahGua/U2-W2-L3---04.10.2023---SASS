@@ -6,6 +6,16 @@
 @import 'partials/bottons';
 @import 'partials/animations';
 
-.main-container {
-    @include animation(4s, 0s)
+body {
+    background-color: $color-bg-hero;
+    color: $color-text;
+    font-family: $font-fam-main;
+}
+
+h2{
+    color: black;
+}
+
+section {
+    background-color: $color-button-blu;
 }
