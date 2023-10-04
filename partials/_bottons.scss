@@ -1,0 +1,11 @@
+ $button-colors: (
+    "blu":  #0e6cff,
+    "yellow": #ff8700,
+    "green": #4caf50
+ );
+
+ @each $color, $spec in $button-colors {
+    .color-#{$color} {
+        background-color: $spec;
+    }
+ }

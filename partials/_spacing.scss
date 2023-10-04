@@ -1,0 +1,29 @@
+$padding: (
+    sm: 0.5em,
+    nm: 1em,
+    md: 1.5em,
+    lg: 2em,
+    xl: 2.5em,
+    xxl: 3.5em,
+);
+
+@each $breakpoint-pad, $value-pad in $padding{
+    .padding-#{$breakpoint-pad}{
+        padding: $value-pad;
+    }
+}
+
+$margin: (
+    sm: 0.5em,
+    nm: 1em,
+    md: 1.5em,
+    lg: 2em,
+    xl: 2.5em,
+    xxl: 3.5em,
+);
+
+@each $breakpoint-mag, $value-mag in $margin{
+    .margin-#{$breakpoint-mag}{
+        margin: $value-mag;
+    }
+}

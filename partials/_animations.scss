@@ -1,0 +1,12 @@
+@mixin animation ($name, $duration, $delay) {
+    @keyframes #{$name} {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
+}
+
+// @include animation (fade-in, 3s, 0s )
